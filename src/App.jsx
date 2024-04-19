@@ -1,14 +1,11 @@
 import "./App.css";
+import codepic from "./Images/codepic.png";
 
 function App() {
   return (
     <>
       <div className="container">
-        <img
-          className="barcode-img"
-          src="./src/assets/image-qr-code.png"
-          alt="Bar Code"
-        ></img>
+        <img className="barcode-img" src={codepic} alt="Bar Code"></img>
         <p className="barcode-para1">
           Improve your front-end skills by building projects
         </p>
