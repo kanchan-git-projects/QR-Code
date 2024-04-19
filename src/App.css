@@ -1,0 +1,82 @@
+.container {
+  margin: auto;
+  width: 15%;
+  max-width: 400px;
+  padding: 1%;
+  border-radius: 5%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.barcode-img {
+  border-radius: 5%;
+  width: 100%;
+  max-height: 300px;
+  max-width: 300px;
+}
+
+.barcode-para1 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(218, 44%, 22%);
+  padding: 1%;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  word-spacing: 3px;
+  font-weight: 800;
+}
+
+.barcode-para2 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: hsl(220, 15%, 55%);
+  padding: 1%;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin: 4rem auto;
+    padding: 4%;
+    width: 80%;
+  }
+  .barcode-para1 {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.4rem;
+  }
+  .barcode-para2 {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+    margin: 2rem auto;
+    padding: 4%;
+    width: 80%;
+    max-width: 375px;
+  }
+  .barcode-para1 {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.4rem;
+  }
+  .barcode-para2 {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1rem;
+  }
+}

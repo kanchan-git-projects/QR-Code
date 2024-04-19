@@ -1,0 +1,12 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+  margin: 4rem auto;
+  align-items: center;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
